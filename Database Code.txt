@@ -1,0 +1,11 @@
+CREATE DATABASE api;
+
+
+CREATE TABLE api(
+	id int AUTO_INCREMENT,
+    name varchar(30),
+    email  varchar(40),
+    phone varchar(11),
+    cgpa varchar(4),
+    PRIMARY KEY(id)
+);
